@@ -1,4 +1,4 @@
-FROM FROM httpd:2.4
+FROM  httpd:2.4
 MAINTAINER ashutoshh@linux.com
 WORKDIR /usr/local/apache2/htdocs
 RUN mkdir hello
